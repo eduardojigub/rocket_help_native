@@ -1,9 +1,7 @@
 import React from 'react';
 import { NativeBaseProvider, StatusBar } from 'native-base';
 import { THEME } from './src/styles/theme';
-import { SignIn } from './src/screens/SignIn';
-import { Home } from './src/screens/Home';
-import { Register } from './src/screens/Register';
+import { Routes } from './src/routes';
 import {
   useFonts,
   Roboto_400Regular,
@@ -21,7 +19,7 @@ export default function App() {
         backgroundColor="transparent"
         translucent
       />
-      {fontsLoaded ? <Register /> : <Loading />}
+      {fontsLoaded ? <Routes /> : <Loading />}
     </NativeBaseProvider>
   );
 }

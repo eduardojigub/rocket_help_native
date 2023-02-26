@@ -19,7 +19,7 @@ export function Home() {
   const [orders, setOrders] = useState<OrderProps[]>([
     {
       id: '123',
-      patrimony: '123213',
+      patrimony: '123456',
       when: '18/07/2022 ás 10:00',
       status: 'open',
     },

@@ -9,6 +9,7 @@ import {
 } from 'native-base';
 import { SignOut } from 'phosphor-react-native';
 import Logo from '../assets/logo_secondary.svg';
+import { Filter } from '../components/Filter';
 
 export function Home() {
   const { colors } = useTheme();
@@ -37,6 +38,10 @@ export function Home() {
         >
           <Heading color="gray.100">Meus Chamados</Heading>
           <Text color="gray.200">3</Text>
+        </HStack>
+        <HStack space={3} mb={8}>
+          <Filter type="open" title="em andamento" />
+          <Filter type="closed" title="finalizados" />
         </HStack>
       </VStack>
     </VStack>

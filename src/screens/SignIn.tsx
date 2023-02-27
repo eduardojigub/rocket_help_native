@@ -8,6 +8,7 @@ import { Envelope, Key } from 'phosphor-react-native';
 import { Button } from '../components/Button';
 
 export function SignIn() {
+  const [isLoading, setIsLoading] = useState(false);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -15,6 +16,14 @@ export function SignIn() {
     if (!email || !password) {
       return Alert.alert('Entrar', 'Informe e-mail e senha');
     }
+
+    setIsLoading(true);
+    auth()
+      .signInWithEmailAndPassword(email, password)
+      .catch((error) => {
+        console.log(error);
+        setIsLoading(false);
+      });
   }
 
   const { colors } = useTheme();
@@ -39,7 +48,12 @@ export function SignIn() {
         mb={8}
         onChangeText={setPassword}
       />
-      <Button title="Entrar" w="full" />
+      <Button
+        isLoading={isLoading}
+        title="Entrar"
+        w="full"
+        onPress={handleSignIn}
+      />
     </VStack>
   );
 }

@@ -29,5 +29,5 @@ An application to manage equipment maintenance and support requests in real time
 ## :thought_balloon: Contact
 
 - GitHub - [Eduardo Sousa](https://github.com/eduardojigub)
-- Linkedin - https://www.linkedin.com/in/eduardo-bruno-sousa/
+- Linkedin - [Eduardo Sousa](https://www.linkedin.com/in/eduardo-bruno-sousa/)
 

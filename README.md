@@ -1,8 +1,8 @@
 # ![cover](.github/cover.gif?style=flat)
 
 
-## Projeto
-A aplicação para gerenciar em tempo real solicitações de manutenção e suporte a equipamentos.
+## Project:
+An application to manage equipment maintenance and support requests in real time.
 
 
 ## Stack
@@ -17,14 +17,14 @@ A aplicação para gerenciar em tempo real solicitações de manutenção e supo
 - And more...
 
 
-## Funcionalidades
+## Functionalities
 
-- Autenticação de usuários
-- Criar novas solicitações
-- Filtra solicitações pelo status
-- Encerra solicitação com solução
-- Sincronização com banco de dados em tempo real
-- Entre outras...
+- User auth
+- Create new requests
+- Filter requests by status
+- Ends requests solutioned
+- Real-time sync with firebase 
+- And others
 
-## Contato 
+## Contact
 

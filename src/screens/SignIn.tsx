@@ -24,6 +24,18 @@ export function SignIn() {
       .catch((error) => {
         console.log(error);
         setIsLoading(false);
+
+        if (error.code === 'auth/invalid-email') {
+          return Alert.alert('Login', 'E-mail inválido');
+        }
+        if (error.code === 'auth/wrong-password') {
+          return Alert.alert('Login', 'E-mail ou senha inválida');
+        }
+        if (error.code === 'auth/user-not-found') {
+          return Alert.alert('Login', 'E-mail ou senha inválida');
+        }
+
+        return Alert.alert('Login', 'Ocorreu um erro ao realizar o login');
       });
   }
 

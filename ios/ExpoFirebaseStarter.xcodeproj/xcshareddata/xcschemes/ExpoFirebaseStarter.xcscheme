@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "rockethelpnative.app"
-               BlueprintName = "rockethelpnative"
-               ReferencedContainer = "container:rockethelpnative.xcodeproj">
+               BuildableName = "ExpoFirebaseStarter.app"
+               BlueprintName = "ExpoFirebaseStarter"
+               ReferencedContainer = "container:ExpoFirebaseStarter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "rockethelpnativeTests.xctest"
-               BlueprintName = "rockethelpnativeTests"
-               ReferencedContainer = "container:rockethelpnative.xcodeproj">
+               BuildableName = "ExpoFirebaseStarterTests.xctest"
+               BlueprintName = "ExpoFirebaseStarterTests"
+               ReferencedContainer = "container:ExpoFirebaseStarter.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "rockethelpnative.app"
-            BlueprintName = "rockethelpnative"
-            ReferencedContainer = "container:rockethelpnative.xcodeproj">
+            BuildableName = "ExpoFirebaseStarter.app"
+            BlueprintName = "ExpoFirebaseStarter"
+            ReferencedContainer = "container:ExpoFirebaseStarter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "rockethelpnative.app"
-            BlueprintName = "rockethelpnative"
-            ReferencedContainer = "container:rockethelpnative.xcodeproj">
+            BuildableName = "ExpoFirebaseStarter.app"
+            BlueprintName = "ExpoFirebaseStarter"
+            ReferencedContainer = "container:ExpoFirebaseStarter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

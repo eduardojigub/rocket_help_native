@@ -1,4 +1,4 @@
-rootProject.name = 'rockethelpnative'
+rootProject.name = 'Expo Firebase Starter'
 
 apply from: new File(["node", "--print", "require.resolve('expo/package.json')"].execute(null, rootDir).text.trim(), "../scripts/autolinking.gradle");
 useExpoModules()

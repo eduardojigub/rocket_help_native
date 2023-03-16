@@ -14,5 +14,11 @@ export default {
     ios: {
       supportsTablet: true,
     },
+    android: {
+      package: 'com.rockethelp',
+    },
+    ios: {
+      bundleIdentifier: 'com.rockethelp',
+    },
   },
 };

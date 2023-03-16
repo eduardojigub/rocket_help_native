@@ -1,4 +1,4 @@
-package com.rockethelpnative;
+package com.rockethelp;
 
 import android.app.Application;
 import android.content.res.Configuration;

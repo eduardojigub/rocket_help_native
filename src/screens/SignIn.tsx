@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
 import { Alert } from 'react-native';
-import auth from '@react-native-firebase/auth';
 import { VStack, Heading, Icon, useTheme } from 'native-base';
 import Logo from '../assets/logo_primary.svg';
 import { Input } from '../components/Input';
@@ -19,24 +18,6 @@ export function SignIn() {
     }
 
     setIsLoading(true);
-    auth()
-      .signInWithEmailAndPassword(email, password)
-      .catch((error) => {
-        console.log(error);
-        setIsLoading(false);
-
-        if (error.code === 'auth/invalid-email') {
-          return Alert.alert('Login', 'E-mail inválido');
-        }
-        if (error.code === 'auth/wrong-password') {
-          return Alert.alert('Login', 'E-mail ou senha inválida');
-        }
-        if (error.code === 'auth/user-not-found') {
-          return Alert.alert('Login', 'E-mail ou senha inválida');
-        }
-
-        return Alert.alert('Login', 'Ocorreu um erro ao realizar o login');
-      });
   }
 
   const { colors } = useTheme();

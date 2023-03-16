@@ -51,10 +51,7 @@ export function Home() {
         px={6}
       >
         <Logo />
-        <IconButton
-          icon={<SignOut size={26} color={colors.gray[300]} />}
-          onPress={handleLogout}
-        />
+        <IconButton icon={<SignOut size={26} color={colors.gray[300]} />} />
       </HStack>
       <VStack flex={1} px={6}>
         <HStack
